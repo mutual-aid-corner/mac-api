@@ -1,0 +1,24 @@
+title: asset_data_v1
+type: object
+x-examples: {}
+properties:
+  location:
+    $ref: ./asset_position.v1.yaml
+  nature:
+    type: string
+    enum:
+      - service
+      - material
+  type:
+    type: string
+    enum:
+      - supply
+      - demand
+  quantity:
+    type: number
+  categogy:
+    type: string
+  description:
+    type: string
+  owner:
+    $ref: ./user.v1.yaml

@@ -1,0 +1,4 @@
+title: asset_position_v1
+oneOf:
+  - $ref: ./geo_box.v1.yaml
+  - $ref: ./geo_point.v1.yaml

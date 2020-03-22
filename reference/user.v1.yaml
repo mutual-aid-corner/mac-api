@@ -1,0 +1,7 @@
+title: user_v1
+type: object
+properties:
+  id:
+    type: string
+  informations:
+    $ref: ./user_data.v1.yaml

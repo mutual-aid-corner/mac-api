@@ -1,0 +1,7 @@
+title: asset_v1
+type: object
+properties:
+  id:
+    type: string
+  informations:
+    $ref: ./asset_data.v1.yaml

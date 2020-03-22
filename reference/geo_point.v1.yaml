@@ -1,0 +1,7 @@
+title: geo_point_v1
+type: object
+properties:
+  lat:
+    type: string
+  long:
+    type: string
