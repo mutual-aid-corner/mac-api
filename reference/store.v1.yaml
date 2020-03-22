@@ -32,7 +32,7 @@ paths:
       operationId: get-assets-asset_id
       description: Retrieve informations about this asset
     put:
-      summary: "Update asset's information"
+      summary: Update specific asset
       operationId: put-assets-asset_id
       responses:
         '200':
@@ -81,7 +81,7 @@ paths:
       tags:
         - Users
     put:
-      summary: "Update user's informations"
+      summary: Update specific user
       operationId: put-users-user_id
       responses:
         '200':
