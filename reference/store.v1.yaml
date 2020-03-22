@@ -104,6 +104,10 @@ paths:
       responses:
         '200':
           description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./user.v1.yaml
         '404':
           description: Not Found
       description: Remove this user from the store
